@@ -14,7 +14,7 @@ st.set_page_config(
 
 # --- Model Handling ---
 # IMPORTANT: Replace this with the actual direct download link to your model
-MODEL_URL = "YOUR_DIRECT_DOWNLOAD_URL_HERE"
+MODEL_URL = "https://github.com/geshu-data-scientist/Forgeed-Image_detector/releases/download/modelfile/modelf.h5"
 MODEL_PATH = "modelf.h5"
 
 def download_file(url, file_path):
@@ -142,3 +142,4 @@ if uploaded_file is not None:
                 st.error(f"An error occurred during analysis: {e}")
     else:
         st.warning("The prediction model could not be loaded. Please check the logs for errors.")
+
